@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {allegro = {Path = "."}, example = {Path = "example"}, allegro_image = {Path = "allegro_image"}, allegro_font = {Path = "allegro_font"}, allegro_native_dialog = {Path = "allegro_native_dialog"}, allegro_memfile = {Path = "allegro_memfile"}, allegro_primitives = {Path = "allegro_primitives"}, allegro_audio = {Path = "allegro_audio"}, allegro_color = {Path = "allegro_color"}, allegro_acodec = {Path = "allegro_acodec"}}
+
+[Workspace]
+StartupProject = "example"

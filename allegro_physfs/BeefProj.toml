@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*"}
+
+[Project]
+Name = "allegro_physfs"
+TargetType = "BeefLib"
+StartupObject = "allegro_physfs.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\allegro_physfs-static.lib"]

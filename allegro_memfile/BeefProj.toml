@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*"}
+
+[Project]
+Name = "allegro_memfile"
+TargetType = "BeefLib"
+StartupObject = "allegro_memfile.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\allegro_memfile-static.lib"]

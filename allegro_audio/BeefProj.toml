@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*"}
+
+[Project]
+Name = "allegro_audio"
+TargetType = "BeefLib"
+StartupObject = "allegro_audio.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\allegro_audio-static.lib"]

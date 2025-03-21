@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*"}
+
+[Project]
+Name = "allegro_color"
+TargetType = "BeefLib"
+StartupObject = "allegro_color.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\allegro_color-static.lib"]

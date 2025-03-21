@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*"}
+
+[Project]
+Name = "allegro_primitives"
+TargetType = "BeefLib"
+StartupObject = "allegro_primitives.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\allegro_primitives-static.lib"]

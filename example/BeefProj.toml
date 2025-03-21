@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", allegro = "*", allegro_image = "*", allegro_color = "*", allegro_font = "*", allegro_primitives = "*"}
+
+[Project]
+Name = "example"
+TargetType = "BeefGUIApplication"
+StartupObject = "example.Program"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
