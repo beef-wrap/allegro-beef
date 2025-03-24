@@ -7,4 +7,7 @@ TargetType = "BeefLib"
 StartupObject = "allegro_font.Program"
 
 [Configs.Debug.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\allegro_font-static.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\allegro_font-debug-static.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\allegro_font-static.lib"]

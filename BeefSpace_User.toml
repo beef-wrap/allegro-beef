@@ -4,8 +4,8 @@ LastPlatform = "Win64"
 RecentFilesList = ["src\\zlib.bf", "src\\zconf.bf", "src\\zdict.bf", "src\\zstd.bf", "src\\cjson.bf", "src\\TinyObjLoaderCBeef.bf"]
 
 [MainWindow]
-X = 224
-Y = 46
+X = 264
+Y = 104
 Width = 1169
 Height = 859
 ShowKind = "ShowMaximized"

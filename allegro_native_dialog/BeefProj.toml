@@ -7,4 +7,7 @@ TargetType = "BeefLib"
 StartupObject = "allegro_native_dialog.Program"
 
 [Configs.Debug.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\allegro_dialog-static.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\allegro_dialog-debug-static.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\allegro_dialog-static.lib"]
