@@ -7,7 +7,6 @@ StartupObject = "allegro_beef.Program"
 DefaultNamespace = "allegro_beef"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
 LibPaths = ["$(ProjectDir)\\libs\\windows\\allegro-debug-static.lib", "Opengl32.lib", "Gdi32.lib", "User32.lib", "Winmm.lib", "Shell32.lib", "Shlwapi.lib", "Ole32.lib"]
 
 [Configs.Debug.Win64]
